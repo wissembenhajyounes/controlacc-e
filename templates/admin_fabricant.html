@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Admin Fabricant</h2>
+<section style="margin-top: 20px;">
+    <h3 id="animated-text">Bienvenue sur la page Admin Fabricant</h3>
+    <p id="animated-subtext">Utilisez la barre de navigation pour accéder aux différentes fonctionnalités.</p>
+</section>
+<!-- Barre de tâche -->
+<nav>
+    <ul style="display: flex; list-style: none; padding: 0; gap: 20px; background-color: #121212; padding: 10px;">
+        <li><a href="{{ url_for('create_client') }}" style="text-decoration: none; color: white;">Créer un compte client</a></li>
+        <li><a href="{{ url_for('modify_client') }}" style="text-decoration: none; color: white;">Modifier un compte client</a></li>
+        <li><a href="{{ url_for('list_clients') }}" style="text-decoration: none; color: white;">Liste des clients</a></li>
+    </ul>
+</nav>
+
+<!-- Content for the current page -->
+
+
+<a href="{{ url_for('logout') }}" style="margin-top: 20px; display: inline-block;">Déconnexion</a>
+{% endblock %}

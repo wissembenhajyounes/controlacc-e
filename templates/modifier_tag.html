@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Modifier {{ 'le tag' if type == 'tag' else 'le code PIN' }}</h2>
+<form method="POST">
+    {% if type == 'tag' %}
+    <!-- Champ pour le nom du propriétaire -->
+    <label for="nom_proprietaire">Nom du propriétaire:</label>
+    <input type="text" id="nom_proprietaire" name="nom_proprietaire" value="{{ item['nom_proprietaire'] }}" required>
+    <br>
+
+    <!-- Champ pour la date de début -->
+    <label for="date_debut">Date de début (YYYY-MM-DD):</label>
+    <input type="date" id="date_debut" name="date_debut" value="{{ item['date_debut'] }}" required>
+    <br>
+
+    <!-- Champ pour la date de fin -->
+    <label for="date_fin">Date de fin (YYYY-MM-DD):</label>
+    <input type="date" id="date_fin" name="date_fin" value="{{ item['date_fin'] }}" required>
+    <br>
+
+    <!-- Champ pour les jours autorisés -->
+    <label>Jours autorisés :</label>
+    <div>
+        <input type="checkbox" id="tous" name="jours_autorises" value="tous" onclick="toggleAllDays(this)">
+        <label for="tous">Tous les jours</label><br>
+        <input type="checkbox" id="lundi" name="jours_autorises" value="lundi" class="jour" {% if 'lundi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="lundi">Lundi</label><br>
+        <input type="checkbox" id="mardi" name="jours_autorises" value="mardi" class="jour" {% if 'mardi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="mardi">Mardi</label><br>
+        <input type="checkbox" id="mercredi" name="jours_autorises" value="mercredi" class="jour" {% if 'mercredi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="mercredi">Mercredi</label><br>
+        <input type="checkbox" id="jeudi" name="jours_autorises" value="jeudi" class="jour" {% if 'jeudi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="jeudi">Jeudi</label><br>
+        <input type="checkbox" id="vendredi" name="jours_autorises" value="vendredi" class="jour" {% if 'vendredi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="vendredi">Vendredi</label><br>
+        <input type="checkbox" id="samedi" name="jours_autorises" value="samedi" class="jour" {% if 'samedi' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="samedi">Samedi</label><br>
+        <input type="checkbox" id="dimanche" name="jours_autorises" value="dimanche" class="jour" {% if 'dimanche' in item['jours_autorises'] %}checked{% endif %}>
+        <label for="dimanche">Dimanche</label><br>
+    </div>
+    <br>
+
+    <!-- Champ pour l'horaire de début -->
+    <label for="horaire_debut">Horaire de début (HH:MM):</label>
+    <input type="time" id="horaire_debut" name="horaire_debut" value="{{ item['horaire_debut'] }}" required>
+    <br>
+
+    <!-- Champ pour l'horaire de fin -->
+    <label for="horaire_fin">Horaire de fin (HH:MM):</label>
+    <input type="time" id="horaire_fin" name="horaire_fin" value="{{ item['horaire_fin'] }}" required>
+    <br>
+
+    <!-- Champ pour l'état du tag -->
+    <label for="etat">État:</label>
+    <select id="etat" name="etat" required>
+        <option value="autorisé" {% if item['etat'] == 'autorisé' %}selected{% endif %}>Autorisé</option>
+        <option value="non autorisé" {% if item['etat'] == 'non autorisé' %}selected{% endif %}>Non autorisé</option>
+    </select>
+    <br>
+    {% elif type == 'pin' %}
+    <!-- Champ pour le code PIN -->
+    <label for="code_ouverture">Code PIN:</label>
+    <input type="text" id="code_ouverture" name="code_ouverture" value="{{ item['code_ouverture'] }}" required>
+    <br>
+    {% endif %}
+
+    <!-- Bouton pour soumettre le formulaire -->
+    <button type="submit">Enregistrer les modifications</button>
+</form>
+
+<!-- Lien pour revenir à la page admin_client -->
+<a href="{{ url_for('admin_client', user_id=session['user_id']) }}">Retour</a>
+
+<script>
+function toggleAllDays(checkbox) {
+    const dayCheckboxes = document.querySelectorAll('.jour');
+    dayCheckboxes.forEach(cb => cb.checked = checkbox.checked);
+}
+</script>
+{% endblock %}

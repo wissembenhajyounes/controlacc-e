@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Ouvrir Serrure avec Code PIN</h2>
+<form method="POST" action="{{ url_for('ouvrir_serrure', user_id=user_id) }}">
+    <label for="serrure_id">ID de la serrure:</label>
+    <input type="text" id="serrure_id" name="serrure_id" required>
+    <label for="code_ouverture">Code d'ouverture (6 chiffres):</label>
+    <input type="text" id="code_ouverture" name="code_ouverture" pattern="\d{6}" required>
+    <button type="submit">Ouvrir Serrure</button>
+</form>
+<a href="{{ url_for('admin_client', user_id=user_id) }}">Retour</a>
+{% endblock %}

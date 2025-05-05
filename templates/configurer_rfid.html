@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Configurer Serrure avec RFID</h2>
+<h3>Configurer un Tag RFID/NFC</h3>
+<form method="POST" action="{{ url_for('configurer_rfid', user_id=user_id) }}">
+    <div class="form-group">
+        <label for="nom_proprietaire">Nom du Propriétaire</label>
+        <input type="text" class="form-control" id="nom_proprietaire" name="nom_proprietaire" required>
+    </div>
+    <div class="form-group">
+        <label for="code_tag">Code RFID/NFC</label>
+        <input type="text" class="form-control" id="code_tag" name="code_tag" required>
+    </div>
+    <div class="form-group">
+        <label for="serrure_id">Serrure Associée</label>
+        <select class="form-control" id="serrure_id" name="serrure_id" required>
+            <option value="">Sélectionnez une serrure</option>
+            {% for serrure in serrures %}
+            <option value="{{ serrure['id'] }}">{{ serrure['nom'] }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary" name="add_serrure_rfid">Ajouter Tag</button>
+</form>
+<a href="{{ url_for('admin_client', user_id=user_id) }}">Retour</a>
+{% endblock %}

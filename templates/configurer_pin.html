@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Configurer Serrure avec Code PIN</h2>
+<form method="POST">
+    <input type="hidden" name="add_serrure_pin">
+    <label for="nom_serrure">Nom de la serrure:</label>
+    <input type="text" id="nom_serrure" name="nom_serrure" required>
+    <label for="code_ouverture">Code d'ouverture (6 chiffres):</label>
+    <input type="text" id="code_ouverture" name="code_ouverture" pattern="\d{6}" required>
+    <button type="submit">Ajouter Serrure</button>
+</form>
+<a href="{{ url_for('admin_client', user_id=session['user_id']) }}">Retour</a>
+{% endblock %}

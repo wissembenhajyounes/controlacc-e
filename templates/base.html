@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}RFID System{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let buttons = document.querySelectorAll("button");
+        buttons.forEach(btn => {
+            btn.addEventListener("mouseenter", function() {
+                btn.style.transform = "scale(1.1)";
+            });
+            btn.addEventListener("mouseleave", function() {
+                btn.style.transform = "scale(1)";
+            });
+        });
+    
+        // 🔦 Effet sur le titre
+        let title = document.querySelector("h1");
+        setInterval(() => {
+            title.style.textShadow = title.style.textShadow ? "" : "0 0 15px rgba(0, 123, 255, 0.8)";
+        }, 1000);
+    });
+    </script>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="{{ url_for('static', filename='logo_EDS.png') }}" alt="Logo de la société" class="logo">
+            <h1>RFID System</h1>
+        </div>
+    </header>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

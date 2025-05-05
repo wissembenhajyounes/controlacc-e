@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* 🌙 Thème sombre avec bleu électrique */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔐 Header sécurisé avec bleu */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #002244, #007BFF);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+}
+
+/* 📌 Logo plus grand et plus clair */
+.logo {
+    height: 150px; /* Augmente la taille */
+    filter: drop-shadow(0px 0px 15px rgba(0, 123, 255, 1)); /* Effet lumineux plus intense */
+}
+
+/* 🔹 Titre plus lisible */
+h1 {
+    font-size: 3rem; /* Plus grand */
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 25px rgba(0, 123, 255, 1), 0 0 40px rgba(0, 123, 255, 0.8);
+    letter-spacing: 2px;
+}
+
+/* 📌 Centrage parfait */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Plus d’espace entre logo et titre */
+}
+
+
+
+/* 🛡 Style des boutons */
+button {
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #007BFF, #0044AA);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.8);
+}
+
+button:hover {
+    background: linear-gradient(45deg, #FF3B3B, #900);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+
+/* 🏢 Contenu principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 📝 Formulaire sécurisé */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+}
+
+/* 🔍 Inputs et Select */
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* 📌 Listes & Éléments */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1E1E1E;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+}
+
+/* 🔗 Liens futuristes */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #FF3B3B;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+}
+
+/* 🔥 Style des messages d'erreur et succès */
+.message.success {
+    background-color: #155724;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+}
+
+.message.error {
+    background-color: #721c24;
+    color: #FF3B3B;
+    border: 1px solid #FF3B3B;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+#animated-text, #animated-subtext {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    white-space: pre-wrap; /* Pour éviter que le texte ne saute à la ligne */
+    overflow: hidden;
+    border-right: 2px solid black; /* Curseur clignotant */
+    animation: blink-caret 0.7s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}

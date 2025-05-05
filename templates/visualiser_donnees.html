@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualiser les Données</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualisation des Données de la Base de Données</h1>
+
+    <h2>Utilisateurs</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nom d'utilisateur</th>
+            <th>Rôle</th>
+            <th>Email</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user['id'] }}</td>
+            <td>{{ user['username'] }}</td>
+            <td>{{ user['role'] }}</td>
+            <td>{{ user['email'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Serrures</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Admin Client ID</th>
+            <th>Code Ouverture</th>
+        </tr>
+        {% for serrure in serrures %}
+        <tr>
+            <td>{{ serrure['id'] }}</td>
+            <td>{{ serrure['nom'] }}</td>
+            <td>{{ serrure['admin_client_id'] }}</td>
+            <td>{{ serrure['code_ouverture'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Tags</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nom Propriétaire</th>
+            <th>Code Tag</th>
+            <th>Date Début</th>
+            <th>Date Fin</th>
+            <th>Jours Autorisés</th>
+            <th>Horaire Début</th>
+            <th>Horaire Fin</th>
+            <th>État</th>
+            <th>Serrure ID</th>
+        </tr>
+        {% for tag in tags %}
+        <tr>
+            <td>{{ tag['id'] }}</td>
+            <td>{{ tag['nom_proprietaire'] }}</td>
+            <td>{{ tag['code_tag'] }}</td>
+            <td>{{ tag['date_debut'] }}</td>
+            <td>{{ tag['date_fin'] }}</td>
+            <td>{{ tag['jours_autorises'] }}</td>
+            <td>{{ tag['horaire_debut'] }}</td>
+            <td>{{ tag['horaire_fin'] }}</td>
+            <td>{{ tag['etat'] }}</td>
+            <td>{{ tag['serrure_id'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Actions</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Tag ID</th>
+            <th>Serrure ID</th>
+            <th>Date Ouverture</th>
+        </tr>
+        {% for action in actions %}
+        <tr>
+            <td>{{ action['id'] }}</td>
+            <td>{{ action['tag_id'] }}</td>
+            <td>{{ action['serrure_id'] }}</td>
+            <td>{{ action['date_ouverture'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <p><a href="{{ url_for('logout') }}">Déconnexion</a></p>
+</body>
+</html>

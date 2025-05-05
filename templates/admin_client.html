@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Admin Client</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+<!-- Barre de navigation -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('configurer_rfid', user_id=client['id']) }}">Configurer Serrure avec RFID</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('configurer_pin', user_id=client['id']) }}">Configurer Serrure avec Code PIN</a>
+    </li>
+</ul>
+
+<!-- Liste des serrures, tags et actions -->
+<h3>Mes Serrures avec Code PIN</h3>
+<table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+        <tr>
+            <th>Nom de la Serrure</th>
+            <th>Code PIN</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for serrure in serrures %}
+        <tr>
+            <td>{{ serrure['nom'] }}</td>
+            <td>{{ serrure['code_ouverture'] }}</td>
+            <td>
+                <a href="{{ url_for('modifier', type='pin', item_id=serrure['id']) }}">Modifier</a>
+                <a href="{{ url_for('supprimer_code_pin', serrure_id=serrure['id']) }}" onclick="return confirm('Êtes-vous sûr ?')">Supprimer</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h3>Mes Tags Utilisateurs</h3>
+<table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+        <tr>
+            <th>Nom du Propriétaire</th>
+            <th>Code RFID/NFC</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for tag in tags %}
+        <tr>
+            <td>{{ tag['nom_proprietaire'] if tag['nom_proprietaire'] else 'Non défini' }}</td>
+            <td>{{ tag['code_tag'] }}</td>
+            <td>
+                <a href="{{ url_for('modifier', type='tag', item_id=tag['id']) }}">Modifier</a>
+                <a href="{{ url_for('supprimer_tag', tag_id=tag['id']) }}" onclick="return confirm('Êtes-vous sûr ?')">Supprimer</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h3>Historique des Actions</h3>
+<table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+        <tr>
+            <th>Date d'Ouverture</th>
+            <th>Code RFID/NFC ou Nom de la Serrure</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for action in actions %}
+        <tr>
+            <td>{{ action['date_ouverture'] }}</td>
+            <td>
+                {% if action['tag_code'] %}
+                    Tag RFID/NFC : {{ action['tag_code'] }}
+                {% elif action['serrure_nom'] %}
+                    Serrure : {{ action['serrure_nom'] }}
+                {% else %}
+                    Non défini
+                {% endif %}
+            </td>
+            <td>
+                <a href="{{ url_for('supprimer_action', action_id=action['id']) }}" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette action ?')">Supprimer</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<a href="{{ url_for('logout') }}">Déconnexion</a>
+
+{% endblock %}
