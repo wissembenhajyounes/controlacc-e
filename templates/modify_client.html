@@ -3,13 +3,14 @@
 {% block content %}
 <h2>Modifier un compte client</h2>
 <form method="POST">
-    <label for="client_id">ID du client:</label>
-    <input type="number" id="client_id" name="client_id" required>
-    <label for="new_username">Nouveau nom d'utilisateur:</label>
-    <input type="text" id="new_username" name="new_username" required>
-    <label for="new_password">Nouveau mot de passe:</label>
-    <input type="password" id="new_password" name="new_password" pattern=".{8,}" title="Le mot de passe doit contenir au moins 8 caractères" required>
-    <button type="submit">Modifier</button>
+    <div class="form-group">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+        <label for="new_password">Nouveau mot de passe</label>
+        <input type="password" id="new_password" name="new_password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Modifier</button>
 </form>
-<a href="{{ url_for('admin_fabricant') }}">Retour</a>
 {% endblock %}

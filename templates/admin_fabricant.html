@@ -12,11 +12,11 @@
         <li><a href="{{ url_for('create_client') }}" style="text-decoration: none; color: white;">Créer un compte client</a></li>
         <li><a href="{{ url_for('modify_client') }}" style="text-decoration: none; color: white;">Modifier un compte client</a></li>
         <li><a href="{{ url_for('list_clients') }}" style="text-decoration: none; color: white;">Liste des clients</a></li>
+        <li><a href="{{ url_for('manage_mac_addresses') }}" style="text-decoration: none; color: white;">Gérer les adresses MAC</a></li>
     </ul>
 </nav>
 
 <!-- Content for the current page -->
-
 
 <a href="{{ url_for('logout') }}" style="margin-top: 20px; display: inline-block;">Déconnexion</a>
 {% endblock %}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "controlacc-e"
+		},
+		{
+			"path": "controle_RFID"
+		},
+		{
+			"path": "static"
+		},
+		{
+			"path": "templates"
+		}
+	],
+	"settings": {}
+}

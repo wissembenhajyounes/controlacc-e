@@ -1,0 +1,474 @@
+2025-05-23 16:07:26,797 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-23 16:07:26,798 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-23 16:07:26,888 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.19:5000
+2025-05-23 16:07:26,889 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 16:07:26,891 - INFO -  * Restarting with stat
+2025-05-23 16:07:27,780 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-23 16:07:27,781 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-23 16:07:27,815 - WARNING -  * Debugger is active!
+2025-05-23 16:07:27,821 - INFO -  * Debugger PIN: 100-108-352
+2025-05-23 16:07:32,126 - INFO - 192.168.100.19 - - [23/May/2025 16:07:32] "GET / HTTP/1.1" 200 -
+2025-05-23 16:07:32,444 - INFO - 192.168.100.19 - - [23/May/2025 16:07:32] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:07:32,463 - INFO - 192.168.100.19 - - [23/May/2025 16:07:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:07:40,988 - INFO - 192.168.100.19 - - [23/May/2025 16:07:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-23 16:07:41,023 - INFO - 192.168.100.19 - - [23/May/2025 16:07:41] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-23 16:07:41,052 - INFO - 192.168.100.19 - - [23/May/2025 16:07:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:07:41,058 - INFO - 192.168.100.19 - - [23/May/2025 16:07:41] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:07:42,548 - INFO - 192.168.100.19 - - [23/May/2025 16:07:42] "GET /create_client HTTP/1.1" 200 -
+2025-05-23 16:07:42,605 - INFO - 192.168.100.19 - - [23/May/2025 16:07:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:07:42,606 - INFO - 192.168.100.19 - - [23/May/2025 16:07:42] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:07:58,227 - INFO - Nouveau client créé: wissem avec adresse MAC: 2C:BC:BB:09:FE:60
+2025-05-23 16:07:58,235 - INFO - 192.168.100.19 - - [23/May/2025 16:07:58] "[32mPOST /create_client HTTP/1.1[0m" 302 -
+2025-05-23 16:07:58,260 - INFO - 192.168.100.19 - - [23/May/2025 16:07:58] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-23 16:07:58,288 - INFO - 192.168.100.19 - - [23/May/2025 16:07:58] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:07:58,290 - INFO - 192.168.100.19 - - [23/May/2025 16:07:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:00,851 - INFO - 192.168.100.19 - - [23/May/2025 16:08:00] "GET /list_clients HTTP/1.1" 200 -
+2025-05-23 16:08:00,870 - INFO - 192.168.100.19 - - [23/May/2025 16:08:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:00,874 - INFO - 192.168.100.19 - - [23/May/2025 16:08:00] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:07,260 - INFO - 192.168.100.19 - - [23/May/2025 16:08:07] "GET /admin_fabricant?delete_client=14 HTTP/1.1" 200 -
+2025-05-23 16:08:07,277 - INFO - 192.168.100.19 - - [23/May/2025 16:08:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:07,281 - INFO - 192.168.100.19 - - [23/May/2025 16:08:07] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:08,895 - INFO - 192.168.100.19 - - [23/May/2025 16:08:08] "GET /list_clients HTTP/1.1" 200 -
+2025-05-23 16:08:08,929 - INFO - 192.168.100.19 - - [23/May/2025 16:08:08] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:08,931 - INFO - 192.168.100.19 - - [23/May/2025 16:08:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:12,637 - INFO - 192.168.100.19 - - [23/May/2025 16:08:12] "GET /admin_fabricant?delete_client=4 HTTP/1.1" 200 -
+2025-05-23 16:08:12,654 - INFO - 192.168.100.19 - - [23/May/2025 16:08:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:12,659 - INFO - 192.168.100.19 - - [23/May/2025 16:08:12] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:16,372 - INFO - 192.168.100.19 - - [23/May/2025 16:08:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-23 16:08:16,391 - INFO - 192.168.100.19 - - [23/May/2025 16:08:16] "GET / HTTP/1.1" 200 -
+2025-05-23 16:08:16,417 - INFO - 192.168.100.19 - - [23/May/2025 16:08:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:16,421 - INFO - 192.168.100.19 - - [23/May/2025 16:08:16] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:24,384 - INFO - 192.168.100.19 - - [23/May/2025 16:08:24] "POST / HTTP/1.1" 200 -
+2025-05-23 16:08:24,406 - INFO - 192.168.100.19 - - [23/May/2025 16:08:24] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:08:24,406 - INFO - 192.168.100.19 - - [23/May/2025 16:08:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:33,920 - INFO - 192.168.100.19 - - [23/May/2025 16:08:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-23 16:08:33,933 - INFO - Actions récupérées pour le client 38: 0
+2025-05-23 16:08:33,978 - INFO - 192.168.100.19 - - [23/May/2025 16:08:33] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 16:08:34,002 - INFO - 192.168.100.19 - - [23/May/2025 16:08:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:08:34,004 - INFO - 192.168.100.19 - - [23/May/2025 16:08:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:12:38,360 - INFO - 192.168.100.19 - - [23/May/2025 16:12:38] "GET /configurer_pin/38 HTTP/1.1" 200 -
+2025-05-23 16:12:38,378 - INFO - 192.168.100.19 - - [23/May/2025 16:12:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:12:38,381 - INFO - 192.168.100.19 - - [23/May/2025 16:12:38] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:12:47,084 - INFO - 192.168.100.19 - - [23/May/2025 16:12:47] "[32mPOST /configurer_pin/38 HTTP/1.1[0m" 302 -
+2025-05-23 16:12:47,106 - INFO - Actions récupérées pour le client 38: 0
+2025-05-23 16:12:47,109 - INFO - 192.168.100.19 - - [23/May/2025 16:12:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 16:12:47,151 - INFO - 192.168.100.19 - - [23/May/2025 16:12:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:12:47,156 - INFO - 192.168.100.19 - - [23/May/2025 16:12:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 16:12:49,565 - INFO - 192.168.100.19 - - [23/May/2025 16:12:49] "GET /configurer_rfid/38 HTTP/1.1" 200 -
+2025-05-23 16:12:49,594 - INFO - 192.168.100.19 - - [23/May/2025 16:12:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 16:12:49,599 - INFO - 192.168.100.19 - - [23/May/2025 16:12:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:02:39,645 - INFO - 192.168.100.27 - - [23/May/2025 17:02:39] "GET / HTTP/1.1" 200 -
+2025-05-23 17:08:14,216 - INFO - 192.168.100.27 - - [23/May/2025 17:08:14] "GET / HTTP/1.1" 200 -
+2025-05-23 17:08:35,918 - INFO - 192.168.100.19 - - [23/May/2025 17:08:35] "[32mPOST /configurer_rfid/38 HTTP/1.1[0m" 302 -
+2025-05-23 17:08:35,932 - INFO - Actions récupérées pour le client 38: 0
+2025-05-23 17:08:35,937 - INFO - 192.168.100.19 - - [23/May/2025 17:08:35] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 17:08:35,964 - INFO - 192.168.100.19 - - [23/May/2025 17:08:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:08:35,965 - INFO - 192.168.100.19 - - [23/May/2025 17:08:35] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:08:49,071 - INFO - 192.168.100.19 - - [23/May/2025 17:08:49] "GET /configurer_rfid/38 HTTP/1.1" 200 -
+2025-05-23 17:08:49,090 - INFO - 192.168.100.19 - - [23/May/2025 17:08:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:08:49,094 - INFO - 192.168.100.19 - - [23/May/2025 17:08:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:08:56,999 - INFO - 192.168.100.19 - - [23/May/2025 17:08:56] "[32mPOST /configurer_rfid/38 HTTP/1.1[0m" 302 -
+2025-05-23 17:08:57,016 - INFO - Actions récupérées pour le client 38: 0
+2025-05-23 17:08:57,023 - INFO - 192.168.100.19 - - [23/May/2025 17:08:57] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 17:08:57,046 - INFO - 192.168.100.19 - - [23/May/2025 17:08:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:08:57,047 - INFO - 192.168.100.19 - - [23/May/2025 17:08:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:09:23,091 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:09:23,092 - INFO - card_id: 9BE6F013, code_pin: None, mac_address: 
+2025-05-23 17:09:23,190 - INFO - 192.168.100.27 - - [23/May/2025 17:09:23] "[35m[1mGET /verifier_acces?card_id=9BE6F013 HTTP/1.1[0m" 500 -
+2025-05-23 17:09:24,655 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:09:24,655 - INFO - card_id: 9BE6F013, code_pin: None, mac_address: 
+2025-05-23 17:09:24,695 - INFO - 192.168.100.27 - - [23/May/2025 17:09:24] "[35m[1mGET /verifier_acces?card_id=9BE6F013 HTTP/1.1[0m" 500 -
+2025-05-23 17:09:43,666 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:09:43,667 - INFO - card_id: B3AC9BA5, code_pin: None, mac_address: 
+2025-05-23 17:09:43,717 - INFO - 192.168.100.27 - - [23/May/2025 17:09:43] "[35m[1mGET /verifier_acces?card_id=B3AC9BA5 HTTP/1.1[0m" 500 -
+2025-05-23 17:11:23,545 - INFO - 192.168.100.27 - - [23/May/2025 17:11:23] "GET / HTTP/1.1" 200 -
+2025-05-23 17:11:55,147 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:11:55,148 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-23 17:11:55,194 - INFO - 192.168.100.27 - - [23/May/2025 17:11:55] "[35m[1mGET /verifier_acces?code_pin=662025 HTTP/1.1[0m" 500 -
+2025-05-23 17:12:04,400 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:12:04,401 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-23 17:12:04,451 - INFO - 192.168.100.27 - - [23/May/2025 17:12:04] "[35m[1mGET /verifier_acces?code_pin=662025 HTTP/1.1[0m" 500 -
+2025-05-23 17:14:19,048 - INFO -  * Detected change in 'C:\\Users\\lenovo\\Desktop\\RFID final\\app.py', reloading
+2025-05-23 17:14:19,324 - INFO -  * Restarting with stat
+2025-05-23 17:14:20,240 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-23 17:14:20,241 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-23 17:14:20,290 - WARNING -  * Debugger is active!
+2025-05-23 17:14:20,301 - INFO -  * Debugger PIN: 100-108-352
+2025-05-23 17:14:24,798 - INFO -  * Detected change in 'C:\\Users\\lenovo\\Desktop\\RFID final\\app.py', reloading
+2025-05-23 17:14:24,853 - INFO -  * Restarting with stat
+2025-05-23 17:14:26,534 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-23 17:14:26,535 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-23 17:14:26,562 - WARNING -  * Debugger is active!
+2025-05-23 17:14:26,569 - INFO -  * Debugger PIN: 100-108-352
+2025-05-23 17:16:55,333 - INFO - 192.168.100.27 - - [23/May/2025 17:16:55] "GET / HTTP/1.1" 200 -
+2025-05-23 17:17:02,514 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:17:02,515 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-23 17:17:02,592 - INFO - Access granted via PIN code: 662025
+2025-05-23 17:17:02,595 - INFO - 192.168.100.27 - - [23/May/2025 17:17:02] "GET /verifier_acces?code_pin=662025 HTTP/1.1" 200 -
+2025-05-23 17:17:54,819 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:17:54,820 - INFO - card_id: None, code_pin: 252525, mac_address: 
+2025-05-23 17:17:54,833 - INFO - Access granted via PIN code: 252525
+2025-05-23 17:17:54,836 - INFO - 192.168.100.27 - - [23/May/2025 17:17:54] "GET /verifier_acces?code_pin=252525 HTTP/1.1" 200 -
+2025-05-23 17:18:19,637 - INFO - Actions récupérées pour le client 38: 1
+2025-05-23 17:18:19,638 - INFO - Action: {'id': 1, 'tag_id': None, 'serrure_id': 2, 'date_ouverture': '2025-05-23 17:17:02', 'resultat': 'Accès autorisé', 'serrure_nom': 'projet_pfe'}
+2025-05-23 17:18:19,649 - INFO - 192.168.100.19 - - [23/May/2025 17:18:19] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 17:18:19,796 - INFO - 192.168.100.19 - - [23/May/2025 17:18:19] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:18:19,797 - INFO - 192.168.100.19 - - [23/May/2025 17:18:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:18:25,537 - INFO - 192.168.100.19 - - [23/May/2025 17:18:25] "GET /configurer_rfid/38 HTTP/1.1" 200 -
+2025-05-23 17:18:25,550 - INFO - 192.168.100.19 - - [23/May/2025 17:18:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:18:25,551 - INFO - 192.168.100.19 - - [23/May/2025 17:18:25] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:18:38,399 - INFO - 192.168.100.19 - - [23/May/2025 17:18:38] "[32mPOST /configurer_rfid/38 HTTP/1.1[0m" 302 -
+2025-05-23 17:18:38,414 - INFO - Actions récupérées pour le client 38: 1
+2025-05-23 17:18:38,414 - INFO - Action: {'id': 1, 'tag_id': None, 'serrure_id': 2, 'date_ouverture': '2025-05-23 17:17:02', 'resultat': 'Accès autorisé', 'serrure_nom': 'projet_pfe'}
+2025-05-23 17:18:38,416 - INFO - 192.168.100.19 - - [23/May/2025 17:18:38] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-23 17:18:38,437 - INFO - 192.168.100.19 - - [23/May/2025 17:18:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-23 17:18:38,439 - INFO - 192.168.100.19 - - [23/May/2025 17:18:38] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-23 17:19:00,515 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:19:00,515 - INFO - card_id: 9BE6F013, code_pin: None, mac_address: 
+2025-05-23 17:19:00,524 - INFO - Access granted for tag: 9BE6F013
+2025-05-23 17:19:00,531 - INFO - 192.168.100.27 - - [23/May/2025 17:19:00] "GET /verifier_acces?card_id=9BE6F013 HTTP/1.1" 200 -
+2025-05-23 17:19:05,518 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:19:05,518 - INFO - card_id: 9BE6F013, code_pin: None, mac_address: 
+2025-05-23 17:19:05,525 - INFO - Access granted for tag: 9BE6F013
+2025-05-23 17:19:05,529 - INFO - 192.168.100.27 - - [23/May/2025 17:19:05] "GET /verifier_acces?card_id=9BE6F013 HTTP/1.1" 200 -
+2025-05-23 17:19:14,642 - INFO - Requête reçue pour vérifier l'accès
+2025-05-23 17:19:14,642 - INFO - card_id: None, code_pin: 252525, mac_address: 
+2025-05-23 17:19:14,660 - INFO - Access granted via PIN code: 252525
+2025-05-23 17:19:14,664 - INFO - 192.168.100.27 - - [23/May/2025 17:19:14] "GET /verifier_acces?code_pin=252525 HTTP/1.1" 200 -
+2025-05-24 10:21:37,699 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-24 10:21:37,700 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-24 10:21:38,346 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.19:5000
+2025-05-24 10:21:38,346 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 10:21:38,358 - INFO -  * Restarting with stat
+2025-05-24 10:21:39,335 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-24 10:21:39,336 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-24 10:21:39,382 - WARNING -  * Debugger is active!
+2025-05-24 10:21:39,394 - INFO -  * Debugger PIN: 100-108-352
+2025-05-24 10:21:41,798 - INFO - 192.168.100.19 - - [24/May/2025 10:21:41] "GET / HTTP/1.1" 200 -
+2025-05-24 10:21:42,080 - INFO - 192.168.100.19 - - [24/May/2025 10:21:42] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:21:42,084 - INFO - 192.168.100.19 - - [24/May/2025 10:21:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:21:42,162 - INFO - 192.168.100.19 - - [24/May/2025 10:21:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-24 10:21:49,772 - INFO - 192.168.100.19 - - [24/May/2025 10:21:49] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-24 10:21:49,809 - INFO - 192.168.100.19 - - [24/May/2025 10:21:49] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-24 10:21:49,856 - INFO - 192.168.100.19 - - [24/May/2025 10:21:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:21:49,858 - INFO - 192.168.100.19 - - [24/May/2025 10:21:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:21:52,852 - INFO - 192.168.100.19 - - [24/May/2025 10:21:52] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-05-24 10:21:52,868 - INFO - 192.168.100.19 - - [24/May/2025 10:21:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:21:52,872 - INFO - 192.168.100.19 - - [24/May/2025 10:21:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:22:02,201 - INFO - 192.168.100.19 - - [24/May/2025 10:22:02] "[32mPOST /add_mac_address HTTP/1.1[0m" 302 -
+2025-05-24 10:22:02,220 - INFO - 192.168.100.19 - - [24/May/2025 10:22:02] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-05-24 10:22:02,239 - INFO - 192.168.100.19 - - [24/May/2025 10:22:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:22:02,241 - INFO - 192.168.100.19 - - [24/May/2025 10:22:02] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:22:09,001 - INFO - 192.168.100.19 - - [24/May/2025 10:22:09] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-24 10:22:09,018 - INFO - 192.168.100.19 - - [24/May/2025 10:22:09] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:22:09,020 - INFO - 192.168.100.19 - - [24/May/2025 10:22:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:22:11,082 - INFO - 192.168.100.19 - - [24/May/2025 10:22:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-24 10:22:11,096 - INFO - 192.168.100.19 - - [24/May/2025 10:22:11] "GET / HTTP/1.1" 200 -
+2025-05-24 10:22:11,117 - INFO - 192.168.100.19 - - [24/May/2025 10:22:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:22:11,119 - INFO - 192.168.100.19 - - [24/May/2025 10:22:11] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:22:20,344 - INFO - 192.168.100.19 - - [24/May/2025 10:22:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-24 10:22:20,364 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:22:20,409 - INFO - 192.168.100.19 - - [24/May/2025 10:22:20] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:22:20,463 - INFO - 192.168.100.19 - - [24/May/2025 10:22:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:22:20,468 - INFO - 192.168.100.19 - - [24/May/2025 10:22:20] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:24:17,016 - INFO - 192.168.100.27 - - [24/May/2025 10:24:17] "GET / HTTP/1.1" 200 -
+2025-05-24 10:24:22,032 - INFO - 192.168.100.27 - - [24/May/2025 10:24:22] "GET / HTTP/1.1" 200 -
+2025-05-24 10:24:34,412 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:24:34,413 - INFO - card_id: None, code_pin: 252525, mac_address: 
+2025-05-24 10:24:34,414 - WARNING - Tentative d'accès sans adresse MAC
+2025-05-24 10:24:34,416 - INFO - 192.168.100.27 - - [24/May/2025 10:24:34] "[31m[1mGET /verifier_acces?code_pin=252525 HTTP/1.1[0m" 403 -
+2025-05-24 10:24:42,734 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:24:42,735 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-24 10:24:42,736 - WARNING - Tentative d'accès sans adresse MAC
+2025-05-24 10:24:42,738 - INFO - 192.168.100.27 - - [24/May/2025 10:24:42] "[31m[1mGET /verifier_acces?code_pin=662025 HTTP/1.1[0m" 403 -
+2025-05-24 10:24:59,323 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:24:59,324 - INFO - card_id: None, code_pin: 252525, mac_address: 
+2025-05-24 10:24:59,325 - WARNING - Tentative d'accès sans adresse MAC
+2025-05-24 10:24:59,326 - INFO - 192.168.100.27 - - [24/May/2025 10:24:59] "[31m[1mGET /verifier_acces?code_pin=252525 HTTP/1.1[0m" 403 -
+2025-05-24 10:25:33,726 - INFO - 192.168.100.27 - - [24/May/2025 10:25:33] "GET / HTTP/1.1" 200 -
+2025-05-24 10:25:40,234 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:25:40,239 - INFO - 192.168.100.19 - - [24/May/2025 10:25:40] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:25:40,258 - INFO - 192.168.100.19 - - [24/May/2025 10:25:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:25:40,261 - INFO - 192.168.100.19 - - [24/May/2025 10:25:40] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:25:45,856 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:25:45,860 - INFO - 192.168.100.19 - - [24/May/2025 10:25:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:25:45,884 - INFO - 192.168.100.19 - - [24/May/2025 10:25:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:25:45,887 - INFO - 192.168.100.19 - - [24/May/2025 10:25:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:25:46,333 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:25:46,337 - INFO - 192.168.100.19 - - [24/May/2025 10:25:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:25:46,352 - INFO - 192.168.100.19 - - [24/May/2025 10:25:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:25:46,353 - INFO - 192.168.100.19 - - [24/May/2025 10:25:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:25:51,381 - INFO - 192.168.100.19 - - [24/May/2025 10:25:51] "GET /modifier/pin/2 HTTP/1.1" 200 -
+2025-05-24 10:25:51,401 - INFO - 192.168.100.19 - - [24/May/2025 10:25:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:25:51,401 - INFO - 192.168.100.19 - - [24/May/2025 10:25:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:26:00,170 - INFO - 192.168.100.19 - - [24/May/2025 10:26:00] "[32mPOST /modifier/pin/2 HTTP/1.1[0m" 302 -
+2025-05-24 10:26:00,196 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:26:00,201 - INFO - 192.168.100.19 - - [24/May/2025 10:26:00] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:26:00,220 - INFO - 192.168.100.19 - - [24/May/2025 10:26:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:26:00,224 - INFO - 192.168.100.19 - - [24/May/2025 10:26:00] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:26:17,627 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:26:17,628 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-24 10:26:17,629 - WARNING - Tentative d'accès sans adresse MAC
+2025-05-24 10:26:17,631 - INFO - 192.168.100.27 - - [24/May/2025 10:26:17] "[31m[1mGET /verifier_acces?code_pin=662025 HTTP/1.1[0m" 403 -
+2025-05-24 10:26:35,753 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:26:35,754 - INFO - card_id: None, code_pin: 662025, mac_address: 
+2025-05-24 10:26:35,755 - WARNING - Tentative d'accès sans adresse MAC
+2025-05-24 10:26:35,756 - INFO - 192.168.100.27 - - [24/May/2025 10:26:35] "[31m[1mGET /verifier_acces?code_pin=662025 HTTP/1.1[0m" 403 -
+2025-05-24 10:28:31,007 - INFO -  * Detected change in 'C:\\Users\\lenovo\\Desktop\\RFID final\\app.py', reloading
+2025-05-24 10:28:31,081 - INFO -  * Restarting with stat
+2025-05-24 10:41:26,704 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-24 10:41:26,704 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-24 10:41:26,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.19:5000
+2025-05-24 10:41:26,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 10:41:26,839 - INFO -  * Restarting with stat
+2025-05-24 10:41:27,647 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-24 10:41:27,647 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-24 10:41:27,684 - WARNING -  * Debugger is active!
+2025-05-24 10:41:27,697 - INFO -  * Debugger PIN: 100-108-352
+2025-05-24 10:41:34,500 - INFO - 192.168.100.19 - - [24/May/2025 10:41:34] "GET / HTTP/1.1" 200 -
+2025-05-24 10:41:34,870 - INFO - 192.168.100.19 - - [24/May/2025 10:41:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:41:34,886 - INFO - 192.168.100.19 - - [24/May/2025 10:41:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:41:43,585 - INFO - 192.168.100.19 - - [24/May/2025 10:41:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-24 10:41:43,600 - INFO - Actions récupérées pour le client 38: 0
+2025-05-24 10:41:43,662 - INFO - 192.168.100.19 - - [24/May/2025 10:41:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-24 10:41:43,699 - INFO - 192.168.100.19 - - [24/May/2025 10:41:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:41:43,702 - INFO - 192.168.100.19 - - [24/May/2025 10:41:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:43:25,428 - INFO - 192.168.100.27 - - [24/May/2025 10:43:25] "GET / HTTP/1.1" 200 -
+2025-05-24 10:48:11,218 - INFO - 192.168.100.27 - - [24/May/2025 10:48:11] "GET / HTTP/1.1" 200 -
+2025-05-24 10:55:17,428 - INFO - 192.168.100.27 - - [24/May/2025 10:55:17] "GET / HTTP/1.1" 200 -
+2025-05-24 10:55:25,379 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:55:25,380 - INFO - card_id: None, code_pin: 252525, mac_address: 2C:BC:BB:09:FE:60
+2025-05-24 10:55:25,388 - INFO - Adresse MAC 2C:BC:BB:09:FE:60 associée au client ID: 38
+2025-05-24 10:55:25,390 - WARNING - PIN 252525 doesn't belong to client 38
+2025-05-24 10:55:25,403 - WARNING - Tentative échouée pour l'IP 192.168.100.27: Ce code PIN n'appartient pas à cette serrure. Compteur: 1
+2025-05-24 10:55:25,411 - INFO - 192.168.100.27 - - [24/May/2025 10:55:25] "[31m[1mGET /verifier_acces?code_pin=252525&mac_address=2C:BC:BB:09:FE:60 HTTP/1.1[0m" 403 -
+2025-05-24 10:55:38,329 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:55:38,330 - INFO - card_id: None, code_pin: 662025, mac_address: 2C:BC:BB:09:FE:60
+2025-05-24 10:55:38,337 - INFO - Adresse MAC 2C:BC:BB:09:FE:60 associée au client ID: 38
+2025-05-24 10:55:38,420 - INFO - Access granted via PIN code: 662025
+2025-05-24 10:55:38,427 - INFO - 192.168.100.27 - - [24/May/2025 10:55:38] "GET /verifier_acces?code_pin=662025&mac_address=2C:BC:BB:09:FE:60 HTTP/1.1" 200 -
+2025-05-24 10:56:43,469 - INFO - 192.168.100.19 - - [24/May/2025 10:56:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-24 10:56:43,488 - INFO - 192.168.100.19 - - [24/May/2025 10:56:43] "GET / HTTP/1.1" 200 -
+2025-05-24 10:56:43,510 - INFO - 192.168.100.19 - - [24/May/2025 10:56:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:56:43,529 - INFO - 192.168.100.19 - - [24/May/2025 10:56:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:57:01,698 - INFO - 192.168.100.19 - - [24/May/2025 10:57:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-24 10:57:01,765 - INFO - 192.168.100.19 - - [24/May/2025 10:57:01] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-24 10:57:01,801 - INFO - 192.168.100.19 - - [24/May/2025 10:57:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:57:01,817 - INFO - 192.168.100.19 - - [24/May/2025 10:57:01] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:57:04,683 - INFO - 192.168.100.19 - - [24/May/2025 10:57:04] "GET /create_client HTTP/1.1" 200 -
+2025-05-24 10:57:04,709 - INFO - 192.168.100.19 - - [24/May/2025 10:57:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:57:04,711 - INFO - 192.168.100.19 - - [24/May/2025 10:57:04] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:06,872 - INFO - Nouveau client créé: malek avec adresse MAC: 2C:BC:00:09:FE:60
+2025-05-24 10:58:06,883 - INFO - 192.168.100.19 - - [24/May/2025 10:58:06] "[32mPOST /create_client HTTP/1.1[0m" 302 -
+2025-05-24 10:58:06,910 - INFO - 192.168.100.19 - - [24/May/2025 10:58:06] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-24 10:58:06,964 - INFO - 192.168.100.19 - - [24/May/2025 10:58:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:06,965 - INFO - 192.168.100.19 - - [24/May/2025 10:58:06] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:13,175 - INFO - 192.168.100.19 - - [24/May/2025 10:58:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-24 10:58:13,194 - INFO - 192.168.100.19 - - [24/May/2025 10:58:13] "GET / HTTP/1.1" 200 -
+2025-05-24 10:58:13,213 - INFO - 192.168.100.19 - - [24/May/2025 10:58:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:13,216 - INFO - 192.168.100.19 - - [24/May/2025 10:58:13] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:21,618 - INFO - 192.168.100.19 - - [24/May/2025 10:58:21] "POST / HTTP/1.1" 200 -
+2025-05-24 10:58:21,644 - INFO - 192.168.100.19 - - [24/May/2025 10:58:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:21,646 - INFO - 192.168.100.19 - - [24/May/2025 10:58:21] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:34,483 - INFO - 192.168.100.19 - - [24/May/2025 10:58:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-24 10:58:34,505 - INFO - Actions récupérées pour le client 45: 0
+2025-05-24 10:58:34,518 - INFO - 192.168.100.19 - - [24/May/2025 10:58:34] "GET /admin_client/45 HTTP/1.1" 200 -
+2025-05-24 10:58:34,550 - INFO - 192.168.100.19 - - [24/May/2025 10:58:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:34,552 - INFO - 192.168.100.19 - - [24/May/2025 10:58:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:37,450 - INFO - 192.168.100.19 - - [24/May/2025 10:58:37] "GET /configurer_pin/45 HTTP/1.1" 200 -
+2025-05-24 10:58:37,481 - INFO - 192.168.100.19 - - [24/May/2025 10:58:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:37,482 - INFO - 192.168.100.19 - - [24/May/2025 10:58:37] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:46,267 - INFO - 192.168.100.19 - - [24/May/2025 10:58:46] "[32mPOST /configurer_pin/45 HTTP/1.1[0m" 302 -
+2025-05-24 10:58:46,282 - INFO - Actions récupérées pour le client 45: 0
+2025-05-24 10:58:46,292 - INFO - 192.168.100.19 - - [24/May/2025 10:58:46] "GET /admin_client/45 HTTP/1.1" 200 -
+2025-05-24 10:58:46,330 - INFO - 192.168.100.19 - - [24/May/2025 10:58:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:58:46,332 - INFO - 192.168.100.19 - - [24/May/2025 10:58:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:58:55,828 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:58:55,829 - INFO - card_id: None, code_pin: 552025, mac_address: 2C:BC:BB:09:FE:60
+2025-05-24 10:58:55,833 - INFO - Adresse MAC 2C:BC:BB:09:FE:60 associée au client ID: 38
+2025-05-24 10:58:55,834 - WARNING - PIN 552025 doesn't belong to client 38
+2025-05-24 10:58:55,846 - WARNING - Tentative échouée pour l'IP 192.168.100.27: Ce code PIN n'appartient pas à cette serrure. Compteur: 1
+2025-05-24 10:58:55,853 - INFO - 192.168.100.27 - - [24/May/2025 10:58:55] "[31m[1mGET /verifier_acces?code_pin=552025&mac_address=2C:BC:BB:09:FE:60 HTTP/1.1[0m" 403 -
+2025-05-24 10:59:05,733 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:59:05,734 - INFO - card_id: None, code_pin: 552025, mac_address: 2C:BC:BB:09:FE:60
+2025-05-24 10:59:05,741 - INFO - Adresse MAC 2C:BC:BB:09:FE:60 associée au client ID: 38
+2025-05-24 10:59:05,742 - WARNING - PIN 552025 doesn't belong to client 38
+2025-05-24 10:59:05,754 - WARNING - Tentative échouée pour l'IP 192.168.100.27: Ce code PIN n'appartient pas à cette serrure. Compteur: 2
+2025-05-24 10:59:05,760 - INFO - 192.168.100.27 - - [24/May/2025 10:59:05] "[31m[1mGET /verifier_acces?code_pin=552025&mac_address=2C:BC:BB:09:FE:60 HTTP/1.1[0m" 403 -
+2025-05-24 10:59:15,802 - INFO - Requête reçue pour vérifier l'accès
+2025-05-24 10:59:15,802 - INFO - card_id: None, code_pin: 662025, mac_address: 2C:BC:BB:09:FE:60
+2025-05-24 10:59:15,809 - INFO - Adresse MAC 2C:BC:BB:09:FE:60 associée au client ID: 38
+2025-05-24 10:59:15,819 - INFO - Access granted via PIN code: 662025
+2025-05-24 10:59:15,826 - INFO - 192.168.100.27 - - [24/May/2025 10:59:15] "GET /verifier_acces?code_pin=662025&mac_address=2C:BC:BB:09:FE:60 HTTP/1.1" 200 -
+2025-05-24 10:59:30,248 - INFO - 192.168.100.19 - - [24/May/2025 10:59:30] "GET /modifier/pin/3 HTTP/1.1" 200 -
+2025-05-24 10:59:30,270 - INFO - 192.168.100.19 - - [24/May/2025 10:59:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:59:30,272 - INFO - 192.168.100.19 - - [24/May/2025 10:59:30] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-24 10:59:34,770 - INFO - 192.168.100.19 - - [24/May/2025 10:59:34] "[32mPOST /modifier/pin/3 HTTP/1.1[0m" 302 -
+2025-05-24 10:59:34,789 - INFO - Actions récupérées pour le client 45: 2
+2025-05-24 10:59:34,790 - INFO - Action: {'id': 3, 'tag_id': None, 'serrure_id': 3, 'date_ouverture': '2025-05-24 10:58:55', 'resultat': "Accès refusé - Ce code PIN n'appartient pas à la serrure associée à cette adresse MAC", 'serrure_nom': 'projet_pfe'}
+2025-05-24 10:59:34,791 - INFO - Action: {'id': 4, 'tag_id': None, 'serrure_id': 3, 'date_ouverture': '2025-05-24 10:59:05', 'resultat': "Accès refusé - Ce code PIN n'appartient pas à la serrure associée à cette adresse MAC", 'serrure_nom': 'projet_pfe'}
+2025-05-24 10:59:34,797 - INFO - 192.168.100.19 - - [24/May/2025 10:59:34] "GET /admin_client/45 HTTP/1.1" 200 -
+2025-05-24 10:59:34,819 - INFO - 192.168.100.19 - - [24/May/2025 10:59:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 10:59:34,821 - INFO - 192.168.100.19 - - [24/May/2025 10:59:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:12:40,786 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-26 14:12:40,787 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-26 14:12:41,456 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.19:5000
+2025-05-26 14:12:41,456 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 14:12:41,467 - INFO -  * Restarting with stat
+2025-05-26 14:12:42,089 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-26 14:12:42,089 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-26 14:12:42,113 - WARNING -  * Debugger is active!
+2025-05-26 14:12:42,120 - INFO -  * Debugger PIN: 100-108-352
+2025-05-26 14:12:45,117 - INFO - 192.168.100.19 - - [26/May/2025 14:12:45] "GET / HTTP/1.1" 200 -
+2025-05-26 14:12:45,304 - INFO - 192.168.100.19 - - [26/May/2025 14:12:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:12:45,313 - INFO - 192.168.100.19 - - [26/May/2025 14:12:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:13:27,383 - INFO - 192.168.100.19 - - [26/May/2025 14:13:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-26 14:13:27,405 - INFO - 192.168.100.19 - - [26/May/2025 14:13:27] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-26 14:13:27,427 - INFO - 192.168.100.19 - - [26/May/2025 14:13:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:13:27,429 - INFO - 192.168.100.19 - - [26/May/2025 14:13:27] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:16:47,570 - INFO - 192.168.100.19 - - [26/May/2025 14:16:47] "GET /create_client HTTP/1.1" 200 -
+2025-05-26 14:16:47,585 - INFO - 192.168.100.19 - - [26/May/2025 14:16:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:16:47,587 - INFO - 192.168.100.19 - - [26/May/2025 14:16:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:17:03,127 - INFO - 192.168.100.19 - - [26/May/2025 14:17:03] "GET /create_client HTTP/1.1" 200 -
+2025-05-26 14:17:03,142 - INFO - 192.168.100.19 - - [26/May/2025 14:17:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:17:03,143 - INFO - 192.168.100.19 - - [26/May/2025 14:17:03] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:17:40,112 - INFO - 192.168.100.19 - - [26/May/2025 14:17:40] "GET /list_clients HTTP/1.1" 200 -
+2025-05-26 14:17:40,125 - INFO - 192.168.100.19 - - [26/May/2025 14:17:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:17:40,126 - INFO - 192.168.100.19 - - [26/May/2025 14:17:40] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:00,802 - INFO - 192.168.100.19 - - [26/May/2025 14:18:00] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-26 14:18:00,817 - INFO - 192.168.100.19 - - [26/May/2025 14:18:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:18:00,818 - INFO - 192.168.100.19 - - [26/May/2025 14:18:00] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:02,409 - INFO - 192.168.100.19 - - [26/May/2025 14:18:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-26 14:18:02,417 - INFO - 192.168.100.19 - - [26/May/2025 14:18:02] "GET / HTTP/1.1" 200 -
+2025-05-26 14:18:02,428 - INFO - 192.168.100.19 - - [26/May/2025 14:18:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:18:02,430 - INFO - 192.168.100.19 - - [26/May/2025 14:18:02] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:13,421 - INFO - 192.168.100.19 - - [26/May/2025 14:18:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-26 14:18:13,431 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:18:13,476 - INFO - 192.168.100.19 - - [26/May/2025 14:18:13] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:18:13,494 - INFO - 192.168.100.19 - - [26/May/2025 14:18:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:18:13,495 - INFO - 192.168.100.19 - - [26/May/2025 14:18:13] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:49,037 - INFO - 192.168.100.19 - - [26/May/2025 14:18:49] "POST / HTTP/1.1" 200 -
+2025-05-26 14:18:49,049 - INFO - 192.168.100.19 - - [26/May/2025 14:18:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:18:49,050 - INFO - 192.168.100.19 - - [26/May/2025 14:18:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:58,523 - INFO - 192.168.100.19 - - [26/May/2025 14:18:58] "POST / HTTP/1.1" 200 -
+2025-05-26 14:18:58,534 - INFO - 192.168.100.19 - - [26/May/2025 14:18:58] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:18:58,535 - INFO - 192.168.100.19 - - [26/May/2025 14:18:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:19:06,547 - INFO - 192.168.100.19 - - [26/May/2025 14:19:06] "POST / HTTP/1.1" 200 -
+2025-05-26 14:19:06,557 - INFO - 192.168.100.19 - - [26/May/2025 14:19:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:19:06,557 - INFO - 192.168.100.19 - - [26/May/2025 14:19:06] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:19:16,196 - INFO - 192.168.100.19 - - [26/May/2025 14:19:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-26 14:19:16,209 - INFO - Actions récupérées pour le client 45: 0
+2025-05-26 14:19:16,211 - INFO - 192.168.100.19 - - [26/May/2025 14:19:16] "GET /admin_client/45 HTTP/1.1" 200 -
+2025-05-26 14:19:16,223 - INFO - 192.168.100.19 - - [26/May/2025 14:19:16] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:19:16,223 - INFO - 192.168.100.19 - - [26/May/2025 14:19:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:20:14,500 - INFO - 192.168.100.19 - - [26/May/2025 14:20:14] "GET / HTTP/1.1" 200 -
+2025-05-26 14:20:22,341 - INFO - 192.168.100.19 - - [26/May/2025 14:20:22] "[32mGET /list_clients HTTP/1.1[0m" 302 -
+2025-05-26 14:20:22,350 - INFO - 192.168.100.19 - - [26/May/2025 14:20:22] "GET / HTTP/1.1" 200 -
+2025-05-26 14:20:22,363 - INFO - 192.168.100.19 - - [26/May/2025 14:20:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:20:22,364 - INFO - 192.168.100.19 - - [26/May/2025 14:20:22] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:20:34,294 - INFO - 192.168.100.19 - - [26/May/2025 14:20:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-26 14:20:34,305 - INFO - 192.168.100.19 - - [26/May/2025 14:20:34] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-26 14:20:34,323 - INFO - 192.168.100.19 - - [26/May/2025 14:20:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:20:34,324 - INFO - 192.168.100.19 - - [26/May/2025 14:20:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:20:38,275 - INFO - 192.168.100.19 - - [26/May/2025 14:20:38] "GET /list_clients HTTP/1.1" 200 -
+2025-05-26 14:20:38,288 - INFO - 192.168.100.19 - - [26/May/2025 14:20:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:20:38,289 - INFO - 192.168.100.19 - - [26/May/2025 14:20:38] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:20:58,986 - INFO - 192.168.100.19 - - [26/May/2025 14:20:58] "GET /modify_client?client_id=45 HTTP/1.1" 200 -
+2025-05-26 14:20:59,001 - INFO - 192.168.100.19 - - [26/May/2025 14:20:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:20:59,002 - INFO - 192.168.100.19 - - [26/May/2025 14:20:59] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:22:14,525 - INFO - 192.168.100.19 - - [26/May/2025 14:22:14] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-26 14:22:14,538 - INFO - 192.168.100.19 - - [26/May/2025 14:22:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:22:14,539 - INFO - 192.168.100.19 - - [26/May/2025 14:22:14] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:22:16,993 - INFO - 192.168.100.19 - - [26/May/2025 14:22:16] "GET /create_client HTTP/1.1" 200 -
+2025-05-26 14:22:17,007 - INFO - 192.168.100.19 - - [26/May/2025 14:22:17] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:22:17,008 - INFO - 192.168.100.19 - - [26/May/2025 14:22:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:22:54,448 - INFO - 192.168.100.19 - - [26/May/2025 14:22:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-26 14:22:54,456 - INFO - 192.168.100.19 - - [26/May/2025 14:22:54] "GET / HTTP/1.1" 200 -
+2025-05-26 14:22:54,470 - INFO - 192.168.100.19 - - [26/May/2025 14:22:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:22:54,471 - INFO - 192.168.100.19 - - [26/May/2025 14:22:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:02,888 - INFO - 192.168.100.19 - - [26/May/2025 14:23:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-26 14:23:02,897 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:23:02,898 - INFO - 192.168.100.19 - - [26/May/2025 14:23:02] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:23:02,914 - INFO - 192.168.100.19 - - [26/May/2025 14:23:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:02,918 - INFO - 192.168.100.19 - - [26/May/2025 14:23:02] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:05,124 - INFO - 192.168.100.19 - - [26/May/2025 14:23:05] "GET /modifier/pin/2 HTTP/1.1" 200 -
+2025-05-26 14:23:05,135 - INFO - 192.168.100.19 - - [26/May/2025 14:23:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:05,136 - INFO - 192.168.100.19 - - [26/May/2025 14:23:05] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:08,383 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:23:08,385 - INFO - 192.168.100.19 - - [26/May/2025 14:23:08] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:23:08,397 - INFO - 192.168.100.19 - - [26/May/2025 14:23:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:08,399 - INFO - 192.168.100.19 - - [26/May/2025 14:23:08] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:29,233 - INFO - 192.168.100.19 - - [26/May/2025 14:23:29] "GET /configurer_pin/38 HTTP/1.1" 200 -
+2025-05-26 14:23:29,245 - INFO - 192.168.100.19 - - [26/May/2025 14:23:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:29,248 - INFO - 192.168.100.19 - - [26/May/2025 14:23:29] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:33,246 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:23:33,248 - INFO - 192.168.100.19 - - [26/May/2025 14:23:33] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:23:33,260 - INFO - 192.168.100.19 - - [26/May/2025 14:23:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:33,262 - INFO - 192.168.100.19 - - [26/May/2025 14:23:33] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:35,007 - INFO - 192.168.100.19 - - [26/May/2025 14:23:35] "GET /configurer_pin/38 HTTP/1.1" 200 -
+2025-05-26 14:23:35,022 - INFO - 192.168.100.19 - - [26/May/2025 14:23:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:35,022 - INFO - 192.168.100.19 - - [26/May/2025 14:23:35] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:36,740 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:23:36,741 - INFO - 192.168.100.19 - - [26/May/2025 14:23:36] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:23:36,755 - INFO - 192.168.100.19 - - [26/May/2025 14:23:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:36,756 - INFO - 192.168.100.19 - - [26/May/2025 14:23:36] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:43,780 - INFO - 192.168.100.19 - - [26/May/2025 14:23:43] "GET /configurer_pin/38 HTTP/1.1" 200 -
+2025-05-26 14:23:43,794 - INFO - 192.168.100.19 - - [26/May/2025 14:23:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:43,795 - INFO - 192.168.100.19 - - [26/May/2025 14:23:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:23:52,858 - INFO - 192.168.100.19 - - [26/May/2025 14:23:52] "[32mPOST /configurer_pin/38 HTTP/1.1[0m" 302 -
+2025-05-26 14:23:52,868 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:23:52,870 - INFO - 192.168.100.19 - - [26/May/2025 14:23:52] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:23:52,889 - INFO - 192.168.100.19 - - [26/May/2025 14:23:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:23:52,889 - INFO - 192.168.100.19 - - [26/May/2025 14:23:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:05,168 - INFO - 192.168.100.19 - - [26/May/2025 14:24:05] "GET /modifier/pin/4 HTTP/1.1" 200 -
+2025-05-26 14:24:05,182 - INFO - 192.168.100.19 - - [26/May/2025 14:24:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:05,184 - INFO - 192.168.100.19 - - [26/May/2025 14:24:05] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:24:20,789 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:24:20,791 - INFO - 192.168.100.19 - - [26/May/2025 14:24:20] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:24:20,805 - INFO - 192.168.100.19 - - [26/May/2025 14:24:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:20,805 - INFO - 192.168.100.19 - - [26/May/2025 14:24:20] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:24:23,307 - INFO - 192.168.100.19 - - [26/May/2025 14:24:23] "GET /modifier/pin/4 HTTP/1.1" 200 -
+2025-05-26 14:24:23,323 - INFO - 192.168.100.19 - - [26/May/2025 14:24:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:23,324 - INFO - 192.168.100.19 - - [26/May/2025 14:24:23] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:24:30,206 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:24:30,208 - INFO - 192.168.100.19 - - [26/May/2025 14:24:30] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:24:30,221 - INFO - 192.168.100.19 - - [26/May/2025 14:24:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:30,223 - INFO - 192.168.100.19 - - [26/May/2025 14:24:30] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:24:33,739 - INFO - 192.168.100.19 - - [26/May/2025 14:24:33] "GET /configurer_rfid/38 HTTP/1.1" 200 -
+2025-05-26 14:24:33,752 - INFO - 192.168.100.19 - - [26/May/2025 14:24:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:33,753 - INFO - 192.168.100.19 - - [26/May/2025 14:24:33] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:24:46,205 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:24:46,207 - INFO - 192.168.100.19 - - [26/May/2025 14:24:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:24:46,220 - INFO - 192.168.100.19 - - [26/May/2025 14:24:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:24:46,220 - INFO - 192.168.100.19 - - [26/May/2025 14:24:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:25:11,960 - INFO - 192.168.100.19 - - [26/May/2025 14:25:11] "GET /configurer_rfid/38 HTTP/1.1" 200 -
+2025-05-26 14:25:11,975 - INFO - 192.168.100.19 - - [26/May/2025 14:25:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:25:11,976 - INFO - 192.168.100.19 - - [26/May/2025 14:25:11] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 14:26:42,733 - INFO - Actions récupérées pour le client 38: 0
+2025-05-26 14:26:42,734 - INFO - 192.168.100.19 - - [26/May/2025 14:26:42] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-05-26 14:26:42,747 - INFO - 192.168.100.19 - - [26/May/2025 14:26:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 14:26:42,747 - INFO - 192.168.100.19 - - [26/May/2025 14:26:42] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-26 15:09:45,943 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-26 15:09:45,944 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-26 15:09:46,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.19:5000
+2025-05-26 15:09:46,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:09:46,070 - INFO -  * Restarting with stat
+2025-05-26 15:09:46,795 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-26 15:09:46,796 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-26 15:09:46,826 - WARNING -  * Debugger is active!
+2025-05-26 15:09:46,833 - INFO -  * Debugger PIN: 100-108-352

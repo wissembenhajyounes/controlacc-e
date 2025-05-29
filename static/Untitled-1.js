@@ -6,7 +6,7 @@ function typeText(elementId, text, delay = 100) {
         if (index < text.length) {
             element.textContent += text[index];
             index++;
-            setTimeout(type, 1000);
+            setTimeout(type, delay);
         }
     }
 

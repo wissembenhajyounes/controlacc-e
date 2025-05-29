@@ -1,13 +1,82 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Créer un compte client</h2>
-<form method="POST" action="{{ url_for('admin_fabricant') }}">
-    <input type="text" name="username" placeholder="Nom d'utilisateur" required>
-    <input type="password" name="password" placeholder="Mot de passe (min. 8 caractères)" pattern=".{8,}" title="Le mot de passe doit contenir au moins 8 caractères" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <input type="tel" name="phone" placeholder="Numéro de téléphone" pattern="^\+?[0-9]{10,15}$" title="Entrez un numéro de téléphone valide (10 à 15 chiffres)" required>
-    <button type="submit" name="add_client">Ajouter Client</button>
+<h2>Création d'un nouveau compte client</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+<form method="POST" action="{{ url_for('create_client_post') }}">
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="username">Nom d'utilisateur:</label></td>
+            <td style="padding: 8px;"><input type="text" id="username" name="username" required style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="password">Mot de passe:</label></td>
+            <td style="padding: 8px;">
+                <input type="password" id="password" name="password" required style="width: 100%;">
+                <small>Le mot de passe doit contenir au moins 8 caractères.</small>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="confirm_password">Confirmer le mot de passe:</label></td>
+            <td style="padding: 8px;"><input type="password" id="confirm_password" name="confirm_password" required style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="email">Email:</label></td>
+            <td style="padding: 8px;"><input type="email" id="email" name="email" required style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="phone">Téléphone:</label></td>
+            <td style="padding: 8px;">
+                <input type="tel" id="phone" name="phone" required style="width: 100%;">
+                <small>Format: +33612345678 (10-15 chiffres)</small>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="mac_address">Adresse MAC de l'ESP32:</label></td>
+            <td style="padding: 8px;">
+                <input type="text" id="mac_address" name="mac_address" required pattern="^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$" style="width: 100%;">
+                <small>Format: AA:BB:CC:DD:EE:FF (obligatoire)</small>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 8px; vertical-align: top;"><label for="lock_name">Nom de la serrure:</label></td>
+            <td style="padding: 8px;">
+                <input type="text" id="lock_name" name="lock_name" required style="width: 100%;">
+                <small>Par exemple: Porte principale, Bureau, etc.</small>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;" colspan="2" align="center">
+                <button type="submit" style="padding: 8px 16px; margin-top: 10px;">Créer le compte</button>
+            </td>
+        </tr>
+    </table>
 </form>
-<a href="{{ url_for('admin_fabricant') }}">Retour</a>
+
+<div style="text-align: center; margin-top: 15px;">
+    <a href="{{ url_for('admin_fabricant') }}">Retour</a>
+</div>
+
+<script>
+    // Vérifier que les mots de passe correspondent avant soumission
+    document.querySelector('form').addEventListener('submit', function(e) {
+        var password = document.getElementById('password');
+        var confirm = document.getElementById('confirm_password');
+        
+        if (password.value !== confirm.value) {
+            e.preventDefault();
+            alert('Les mots de passe ne correspondent pas. Veuillez réessayer.');
+        }
+    });
+</script>
 {% endblock %}

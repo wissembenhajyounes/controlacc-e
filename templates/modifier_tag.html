@@ -61,7 +61,62 @@
     {% elif type == 'pin' %}
     <!-- Champ pour le code PIN -->
     <label for="code_ouverture">Code PIN:</label>
-    <input type="text" id="code_ouverture" name="code_ouverture" value="{{ item['code_ouverture'] }}" required>
+    <input type="text" id="code_ouverture" name="code_ouverture" value="{{ item['code_ouverture'] }}" pattern="\d{6}" title="Le code PIN doit contenir exactement 6 chiffres" required>
+    <br>
+    
+    <!-- Champ pour le nom du propriétaire -->
+    <label for="nom_proprietaire">Nom du propriétaire:</label>
+    <input type="text" id="nom_proprietaire" name="nom_proprietaire" value="{{ item['nom_proprietaire'] if item['nom_proprietaire'] else 'Non défini' }}" required>
+    <br>
+
+    <!-- Champ pour la date de début -->
+    <label for="date_debut">Date de début (YYYY-MM-DD):</label>
+    <input type="date" id="date_debut" name="date_debut" value="{{ item['date_debut'] if item['date_debut'] else '2025-01-01' }}" required>
+    <br>
+
+    <!-- Champ pour la date de fin -->
+    <label for="date_fin">Date de fin (YYYY-MM-DD):</label>
+    <input type="date" id="date_fin" name="date_fin" value="{{ item['date_fin'] if item['date_fin'] else '2030-01-01' }}" required>
+    <br>
+
+    <!-- Champ pour les jours autorisés -->
+    <label>Jours autorisés :</label>
+    <div>
+        <input type="checkbox" id="tous" name="jours_autorises" value="tous" onclick="toggleAllDays(this)">
+        <label for="tous">Tous les jours</label><br>
+        <input type="checkbox" id="lundi" name="jours_autorises" value="lundi" class="jour" {% if item['jours_autorises'] and 'lundi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="lundi">Lundi</label><br>
+        <input type="checkbox" id="mardi" name="jours_autorises" value="mardi" class="jour" {% if item['jours_autorises'] and 'mardi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="mardi">Mardi</label><br>
+        <input type="checkbox" id="mercredi" name="jours_autorises" value="mercredi" class="jour" {% if item['jours_autorises'] and 'mercredi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="mercredi">Mercredi</label><br>
+        <input type="checkbox" id="jeudi" name="jours_autorises" value="jeudi" class="jour" {% if item['jours_autorises'] and 'jeudi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="jeudi">Jeudi</label><br>
+        <input type="checkbox" id="vendredi" name="jours_autorises" value="vendredi" class="jour" {% if item['jours_autorises'] and 'vendredi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="vendredi">Vendredi</label><br>
+        <input type="checkbox" id="samedi" name="jours_autorises" value="samedi" class="jour" {% if item['jours_autorises'] and 'samedi' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="samedi">Samedi</label><br>
+        <input type="checkbox" id="dimanche" name="jours_autorises" value="dimanche" class="jour" {% if item['jours_autorises'] and 'dimanche' in item['jours_autorises']|lower %}checked{% endif %}>
+        <label for="dimanche">Dimanche</label><br>
+    </div>
+    <br>
+
+    <!-- Champ pour l'horaire de début -->
+    <label for="horaire_debut">Horaire de début (HH:MM):</label>
+    <input type="time" id="horaire_debut" name="horaire_debut" value="{{ item['horaire_debut'] if item['horaire_debut'] else '08:00' }}" required>
+    <br>
+
+    <!-- Champ pour l'horaire de fin -->
+    <label for="horaire_fin">Horaire de fin (HH:MM):</label>
+    <input type="time" id="horaire_fin" name="horaire_fin" value="{{ item['horaire_fin'] if item['horaire_fin'] else '18:00' }}" required>
+    <br>
+
+    <!-- Champ pour l'état du code PIN -->
+    <label for="etat">État:</label>
+    <select id="etat" name="etat" required>
+        <option value="autorisé" {% if item['etat'] and item['etat'] == 'autorisé' %}selected{% endif %}>Autorisé</option>
+        <option value="non autorisé" {% if item['etat'] and item['etat'] == 'non autorisé' %}selected{% endif %}>Non autorisé</option>
+    </select>
     <br>
     {% endif %}
 

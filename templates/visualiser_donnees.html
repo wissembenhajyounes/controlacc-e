@@ -98,6 +98,7 @@
             <th>Tag ID</th>
             <th>Serrure ID</th>
             <th>Date Ouverture</th>
+            <th>Résultat</th>
         </tr>
         {% for action in actions %}
         <tr>
@@ -105,6 +106,7 @@
             <td>{{ action['tag_id'] }}</td>
             <td>{{ action['serrure_id'] }}</td>
             <td>{{ action['date_ouverture'] }}</td>
+            <td>{{ action['resultat'] }}</td>
         </tr>
         {% endfor %}
     </table>

@@ -2,30 +2,44 @@
 
 {% block content %}
 <h2>Liste des clients</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
 <table border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
     <thead>
         <tr>
-            <th>ID</th>
             <th>Nom d'utilisateur</th>
             <th>Email</th>
             <th>Téléphone</th>
+            <th>Adresse MAC</th>
+            <th>Nom de la serrure</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
         {% for client in clients %}
         <tr>
-            <td>{{ client['id'] }}</td>
-            <td>{{ client['username'] }}</td>
-            <td>{{ client['email'] }}</td>
-            <td>{{ client['phone'] }}</td>
+            <td>{{ client.username }}</td>
+            <td>{{ client.email }}</td>
+            <td>{{ client.phone }}</td>
+            <td>{{ client.mac_address }}</td>
+            <td>{{ client.lock_name }}</td>
             <td>
-                <a href="{{ url_for('admin_client', user_id=client['id']) }}">connexion</a> |
-                <a href="{{ url_for('admin_fabricant', delete_client=client['id']) }}" onclick="return confirm('Êtes-vous sûr ?')">Supprimer</a>
+                <a href="{{ url_for('modify_client') }}?client_id={{ client.id }}">Modifier</a>
+                <a href="{{ url_for('admin_fabricant') }}?delete_client={{ client.id }}" onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce client?')">Supprimer</a>
             </td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
+
 <a href="{{ url_for('admin_fabricant') }}">Retour</a>
 {% endblock %}

@@ -76,6 +76,7 @@
         <tr>
             <th>Date d'Ouverture</th>
             <th>Code RFID/NFC ou Nom de la Serrure</th>
+            <th>Résultat</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -92,6 +93,7 @@
                     Non défini
                 {% endif %}
             </td>
+            <td>{{ action['resultat'] }}</td>
             <td>
                 <a href="{{ url_for('supprimer_action', action_id=action['id']) }}" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette action ?')">Supprimer</a>
             </td>
