@@ -1,76 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* 🌙 Thème sombre avec bleu électrique */
+/* 🌙 Base styles */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #121212;
     color: #fff;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-/* 🔐 Header sécurisé avec bleu */
+/* 🔐 Header responsive */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: linear-gradient(90deg, #002244, #007BFF);
-    padding: 20px;
+    padding: 10px 20px;
     box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
 }
 
-/* 📌 Logo plus grand et plus clair */
+/* 📌 Logo responsive */
 .logo {
-    height: 150px; /* Augmente la taille */
-    filter: drop-shadow(0px 0px 15px rgba(0, 123, 255, 1)); /* Effet lumineux plus intense */
+    height: 100px;
+    max-width: 100%;
+    filter: drop-shadow(0px 0px 15px rgba(0, 123, 255, 1));
 }
 
-/* 🔹 Titre plus lisible */
+/* 🔹 Titre responsive */
 h1 {
-    font-size: 3rem; /* Plus grand */
+    font-size: 2rem;
     font-weight: bold;
     color: #ffffff;
     text-shadow: 0 0 25px rgba(0, 123, 255, 1), 0 0 40px rgba(0, 123, 255, 0.8);
     letter-spacing: 2px;
+    margin: 10px 0;
 }
 
-/* 📌 Centrage parfait */
+h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 📌 Centrage responsive */
 .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Plus d’espace entre logo et titre */
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
 }
 
-
-
-/* 🛡 Style des boutons */
+/* 🛡 Styles des boutons */
 button {
-    padding: 12px 20px;
+    padding: 10px 15px;
     background: linear-gradient(45deg, #007BFF, #0044AA);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     transition: 0.3s;
     box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.8);
+    margin: 5px;
+    max-width: 100%;
 }
 
 button:hover {
     background: linear-gradient(45deg, #FF3B3B, #900);
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-/* 🏢 Contenu principal */
+/* 🏢 Contenu principal responsive */
 main {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 15px;
+    max-width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
-/* 📝 Formulaire sécurisé */
+/* 📝 Formulaire responsive */
 form {
     display: flex;
     flex-direction: column;
@@ -78,35 +91,65 @@ form {
     max-width: 400px;
     margin: 0 auto;
     background-color: #1E1E1E;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+    box-sizing: border-box;
 }
 
-/* 🔍 Inputs et Select */
-input, select {
+/* 🔍 Inputs et Select responsive */
+input, select, textarea {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #007BFF;
     border-radius: 4px;
     font-size: 16px;
     background-color: #121212;
     color: #fff;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-/* 📌 Listes & Éléments */
+/* Responsive tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    table {
+        display: table;
+    }
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #1E1E1E;
+}
+
+/* 📌 Listes & Éléments responsive */
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 li {
     background-color: #1E1E1E;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
     transition: 0.3s;
+    word-wrap: break-word;
 }
 
 li:hover {
@@ -119,6 +162,8 @@ a {
     color: #007BFF;
     text-decoration: none;
     transition: 0.3s;
+    display: inline-block;
+    margin: 5px 0;
 }
 
 a:hover {
@@ -126,28 +171,68 @@ a:hover {
     text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
 }
 
+/* Barre de navigation responsive */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #121212;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+nav a {
+    display: block;
+    padding: 8px 12px;
+    background-color: #1E1E1E;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #0044AA;
+    color: white;
+}
+
 /* 🔥 Style des messages d'erreur et succès */
-.message.success {
+.message, .alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+.message.success, .alert-success {
     background-color: #155724;
-    color: #007BFF;
+    color: #d4edda;
     border: 1px solid #007BFF;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
 }
 
-.message.error {
+.message.error, .alert-danger {
     background-color: #721c24;
-    color: #FF3B3B;
+    color: #f8d7da;
     border: 1px solid #FF3B3B;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
+/* Animation du texte */
 #animated-text, #animated-subtext {
     font-family: Arial, sans-serif;
-    font-size: 1.5em;
-    white-space: pre-wrap; /* Pour éviter que le texte ne saute à la ligne */
+    font-size: 1.2em;
+    white-space: pre-wrap;
     overflow: hidden;
-    border-right: 2px solid black; /* Curseur clignotant */
+    border-right: 2px solid black;
     animation: blink-caret 0.7s step-end infinite;
+    margin-bottom: 10px;
 }
 
 @keyframes blink-caret {
@@ -157,4 +242,77 @@ a:hover {
     50% {
         border-color: black;
     }
+}
+
+/* Media queries pour différentes tailles d'écran */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        height: 80px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .header-container {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        width: 100%;
+        min-width: 200px;
+    }
+    
+    input, select, button {
+        font-size: 16px; /* Évite le zoom automatique sur iPhone */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    button {
+        padding: 12px 10px;
+        width: 100%;
+    }
+    
+    form {
+        padding: 10px;
+    }
+    
+    #animated-text, #animated-subtext {
+        font-size: 1em;
+    }
+}
+
+/* Ajouts pour améliorer l'expérience mobile */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+input[type="submit"], button {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Fix pour les débordements horizontaux */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

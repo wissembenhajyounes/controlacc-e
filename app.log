@@ -472,3 +472,484 @@
 2025-05-26 15:09:46,796 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
 2025-05-26 15:09:46,826 - WARNING -  * Debugger is active!
 2025-05-26 15:09:46,833 - INFO -  * Debugger PIN: 100-108-352
+2025-05-29 20:50:50,998 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 20:50:50,999 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 20:50:51,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-05-29 20:50:51,402 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 20:50:51,410 - INFO -  * Restarting with stat
+2025-05-29 20:50:52,064 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 20:50:52,065 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 20:50:52,088 - WARNING -  * Debugger is active!
+2025-05-29 20:50:52,096 - INFO -  * Debugger PIN: 100-108-352
+2025-05-29 20:50:58,146 - INFO - 192.168.1.70 - - [29/May/2025 20:50:58] "GET / HTTP/1.1" 200 -
+2025-05-29 20:50:58,365 - INFO - 192.168.1.70 - - [29/May/2025 20:50:58] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-29 20:50:58,367 - INFO - 192.168.1.70 - - [29/May/2025 20:50:58] "GET /static/logo_EDS.png HTTP/1.1" 200 -
+2025-05-29 20:51:00,010 - INFO - 192.168.1.70 - - [29/May/2025 20:51:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 20:51:23,212 - INFO - 192.168.1.70 - - [29/May/2025 20:51:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 20:51:44,396 - INFO - 192.168.1.70 - - [29/May/2025 20:51:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-29 20:51:44,411 - INFO - 192.168.1.70 - - [29/May/2025 20:51:44] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 20:51:44,443 - INFO - 192.168.1.70 - - [29/May/2025 20:51:44] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 20:51:44,444 - INFO - 192.168.1.70 - - [29/May/2025 20:51:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 20:51:55,278 - INFO - 192.168.1.70 - - [29/May/2025 20:51:55] "GET /create_client HTTP/1.1" 200 -
+2025-05-29 20:51:55,304 - INFO - 192.168.1.70 - - [29/May/2025 20:51:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 20:51:55,304 - INFO - 192.168.1.70 - - [29/May/2025 20:51:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 20:52:17,329 - INFO - 192.168.1.70 - - [29/May/2025 20:52:17] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 20:52:17,354 - INFO - 192.168.1.70 - - [29/May/2025 20:52:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 20:52:17,355 - INFO - 192.168.1.70 - - [29/May/2025 20:52:17] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:18:09,902 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 21:18:09,903 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 21:18:09,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-05-29 21:18:09,996 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 21:18:09,999 - INFO -  * Restarting with stat
+2025-05-29 21:18:10,789 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 21:18:10,790 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 21:18:10,822 - WARNING -  * Debugger is active!
+2025-05-29 21:18:10,831 - INFO -  * Debugger PIN: 100-108-352
+2025-05-29 21:18:14,963 - INFO - 192.168.1.70 - - [29/May/2025 21:18:14] "GET / HTTP/1.1" 200 -
+2025-05-29 21:18:15,378 - INFO - 192.168.1.70 - - [29/May/2025 21:18:15] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:18:15,386 - INFO - 192.168.1.70 - - [29/May/2025 21:18:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:18:27,970 - INFO - 192.168.1.70 - - [29/May/2025 21:18:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:18:57,295 - INFO - 192.168.1.70 - - [29/May/2025 21:18:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-29 21:18:57,322 - INFO - 192.168.1.70 - - [29/May/2025 21:18:57] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 21:18:57,380 - INFO - 192.168.1.70 - - [29/May/2025 21:18:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:18:57,382 - INFO - 192.168.1.70 - - [29/May/2025 21:18:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:23:56,446 - INFO - 192.168.1.70 - - [29/May/2025 21:23:56] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 21:23:56,467 - INFO - 192.168.1.70 - - [29/May/2025 21:23:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:23:56,469 - INFO - 192.168.1.70 - - [29/May/2025 21:23:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:23:57,445 - INFO - 192.168.1.70 - - [29/May/2025 21:23:57] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 21:23:57,483 - INFO - 192.168.1.70 - - [29/May/2025 21:23:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:23:57,485 - INFO - 192.168.1.70 - - [29/May/2025 21:23:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:24:08,524 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 21:24:08,525 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 21:24:08,598 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-05-29 21:24:08,598 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 21:24:08,600 - INFO -  * Restarting with stat
+2025-05-29 21:24:09,714 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-05-29 21:24:09,715 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-05-29 21:24:09,799 - WARNING -  * Debugger is active!
+2025-05-29 21:24:09,808 - INFO -  * Debugger PIN: 100-108-352
+2025-05-29 21:24:14,871 - INFO - 192.168.1.70 - - [29/May/2025 21:24:14] "GET / HTTP/1.1" 200 -
+2025-05-29 21:24:15,221 - INFO - 192.168.1.70 - - [29/May/2025 21:24:15] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:24:15,224 - INFO - 192.168.1.70 - - [29/May/2025 21:24:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:24:23,395 - INFO - 192.168.1.70 - - [29/May/2025 21:24:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-29 21:24:23,428 - INFO - 192.168.1.70 - - [29/May/2025 21:24:23] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-05-29 21:24:23,468 - INFO - 192.168.1.70 - - [29/May/2025 21:24:23] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:24:23,479 - INFO - 192.168.1.70 - - [29/May/2025 21:24:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:24:30,453 - INFO - 192.168.1.70 - - [29/May/2025 21:24:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:24:38,748 - INFO - 192.168.1.70 - - [29/May/2025 21:24:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-29 21:24:38,764 - INFO - 192.168.1.70 - - [29/May/2025 21:24:38] "GET / HTTP/1.1" 200 -
+2025-05-29 21:24:38,801 - INFO - 192.168.1.70 - - [29/May/2025 21:24:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:24:38,802 - INFO - 192.168.1.70 - - [29/May/2025 21:24:38] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:25:21,886 - INFO - 192.168.1.70 - - [29/May/2025 21:25:21] "GET / HTTP/1.1" 200 -
+2025-05-29 21:25:21,912 - INFO - 192.168.1.70 - - [29/May/2025 21:25:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:25:21,912 - INFO - 192.168.1.70 - - [29/May/2025 21:25:21] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-05-29 21:25:23,476 - INFO - 192.168.1.70 - - [29/May/2025 21:25:23] "GET / HTTP/1.1" 200 -
+2025-05-29 21:25:23,502 - INFO - 192.168.1.70 - - [29/May/2025 21:25:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-29 21:25:23,505 - INFO - 192.168.1.70 - - [29/May/2025 21:25:23] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:44:52,237 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-09 17:44:52,238 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-09 17:44:52,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.232:5000
+2025-06-09 17:44:52,937 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 17:44:52,945 - INFO -  * Restarting with stat
+2025-06-09 17:44:53,609 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-09 17:44:53,610 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-09 17:44:53,636 - WARNING -  * Debugger is active!
+2025-06-09 17:44:53,644 - INFO -  * Debugger PIN: 846-218-050
+2025-06-09 17:45:43,155 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:43] "GET / HTTP/1.1" 200 -
+2025-06-09 17:45:43,430 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:43] "GET /static/styles.css HTTP/1.1" 200 -
+2025-06-09 17:45:43,437 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:43] "GET /static/logo_EDS.png HTTP/1.1" 200 -
+2025-06-09 17:45:45,893 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-09 17:45:59,256 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:59] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-09 17:45:59,266 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:45:59,306 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:59] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:45:59,326 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:45:59,326 - INFO - 192.168.112.232 - - [09/Jun/2025 17:45:59] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:07,537 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:07,541 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:07] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:07,550 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:07] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:07,551 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:22,919 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:22,924 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:22] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:23,370 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:23,370 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:23] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:30,282 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:30,284 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:30] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:30,296 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:30,297 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:30] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:51,570 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:51,571 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:51,581 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:51,582 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:53,401 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:53,402 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:53,414 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:53,415 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:46:57,019 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:46:57,021 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:57] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:46:57,032 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:46:57,033 - INFO - 192.168.112.232 - - [09/Jun/2025 17:46:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:47:13,831 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:13] "GET / HTTP/1.1" 200 -
+2025-06-09 17:47:29,417 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-09 17:47:29,504 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:29] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-06-09 17:47:29,520 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:47:29,521 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:29] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:47:35,994 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:35] "GET /list_clients HTTP/1.1" 200 -
+2025-06-09 17:47:36,004 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:47:36,005 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:36] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:47:43,804 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:43] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-06-09 17:47:43,812 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:47:43,813 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:47:45,926 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:45] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-06-09 17:47:45,943 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:47:45,944 - INFO - 192.168.112.232 - - [09/Jun/2025 17:47:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:48:02,724 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:02] "GET /list_clients HTTP/1.1" 200 -
+2025-06-09 17:48:02,733 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:48:02,734 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:02] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:48:08,868 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:08] "GET /modify_client HTTP/1.1" 200 -
+2025-06-09 17:48:08,878 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:48:08,878 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:08] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:48:13,617 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:13] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-06-09 17:48:13,629 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:48:13,630 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:13] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:48:46,825 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:46] "[32mPOST /add_mac_address HTTP/1.1[0m" 302 -
+2025-06-09 17:48:46,837 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:46] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-06-09 17:48:46,849 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:48:46,850 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:48:52,864 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:52] "GET /manage_mac_addresses HTTP/1.1" 200 -
+2025-06-09 17:48:56,578 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-09 17:48:56,584 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:56] "GET / HTTP/1.1" 200 -
+2025-06-09 17:48:56,595 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:48:56,596 - INFO - 192.168.112.232 - - [09/Jun/2025 17:48:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:08,370 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:08] "POST / HTTP/1.1" 200 -
+2025-06-09 17:49:08,382 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:08] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:08,383 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:20,500 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-09 17:49:20,530 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:20,532 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:20] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:20,544 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:20,545 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:20] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:26,665 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:26,667 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:26] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:26,679 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:26,680 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:26] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:41,613 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:41,615 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:41] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:41,624 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:41,625 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:41] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:42,655 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:42,657 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:42,669 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:42,670 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:42,853 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:42,855 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:42,865 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:42,867 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:42] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,097 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:43,099 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:43,108 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,109 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,343 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:43,345 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:43,355 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,355 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,553 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:43,554 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:43,566 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,568 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,773 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:43,775 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:43,785 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,786 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,975 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:43,978 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:43,989 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:43,990 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:43] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,202 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:44,204 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:44,215 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,215 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,396 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:44,398 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:44,408 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,408 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,627 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:44,629 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:44,638 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,639 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,852 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:44,854 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:44,867 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:44,868 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:44] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,079 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:45,080 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:45,090 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,092 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,271 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:45,273 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:45,283 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,284 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,477 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:45,479 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:45,490 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,490 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,702 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:45,704 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:45,719 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,720 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,885 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:45,887 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:45,895 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:45,896 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:45] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,182 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:46,183 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:46,196 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,198 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,402 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:46,404 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:46,411 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,412 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,608 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:46,610 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:46,622 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,622 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,803 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:46,805 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:46,816 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:46,816 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:46] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,033 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:47,035 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:47,047 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,049 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,259 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:47,261 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:47,274 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,275 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,470 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:47,472 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:47,482 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,484 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,694 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:47,696 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:47,709 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,712 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,947 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:47,949 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:47,960 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:47,960 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:47] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,108 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:48,110 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:48,121 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,121 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,361 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:48,362 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:48,372 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,374 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,589 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:48,590 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:48,605 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:48,605 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:48] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,025 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:49,028 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:49,039 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,040 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,478 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:49,481 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:49,494 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,495 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,949 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:49,950 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:49,961 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:49,961 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:49] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:50,179 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:50,183 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:50,198 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:50,199 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:50,818 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:50,820 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:50,829 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:50,830 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:50] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,034 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:51,038 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:51,052 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,053 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,235 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:51,237 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:51,247 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,247 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,464 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:51,466 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:51,478 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,479 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,653 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:51,655 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:51,664 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,665 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,873 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:51,875 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:51,886 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:51,886 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,091 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:52,094 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:52,104 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,104 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,315 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:52,318 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:52,332 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,333 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,539 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:52,541 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:52,557 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,558 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,852 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:52,855 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:52,866 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:52,867 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:52] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,120 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:53,123 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:53,135 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,136 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,328 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:53,329 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:53,339 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,340 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,532 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:53,534 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:53,543 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,543 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,747 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:53,749 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:53,760 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,761 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,967 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:53,969 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:53,978 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:53,978 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,168 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:54,169 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:54,179 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,180 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,383 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:54,385 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:54,393 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,395 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,557 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:54,559 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:54,569 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,570 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,765 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:54,767 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:54,778 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,781 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,951 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:54,953 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:54,961 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:54,962 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,162 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:55,165 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:55,177 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,179 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,350 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:55,352 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:55,364 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,365 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,553 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:55,555 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:55,567 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,567 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,725 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:55,727 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:55,737 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,738 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,914 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:55,916 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:55,926 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:55,927 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:55] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,110 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:56,112 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:56,124 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,124 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,320 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:56,323 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:56,336 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,337 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,510 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:56,514 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:56,522 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,522 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,693 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:56,695 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:56,707 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,708 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,902 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:56,906 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:56,916 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:56,916 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:56] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:57,099 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:57,101 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:57,113 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:57,115 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-09 17:49:57,316 - INFO - Actions récupérées pour le client 38: 0
+2025-06-09 17:49:57,319 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-09 17:49:57,332 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-09 17:49:57,333 - INFO - 192.168.112.232 - - [09/Jun/2025 17:49:57] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-10 11:09:16,341 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-10 11:09:16,341 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-10 11:09:16,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+2025-06-10 11:09:16,918 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 11:09:16,926 - INFO -  * Restarting with stat
+2025-06-10 11:09:17,478 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-10 11:09:17,478 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-10 11:09:17,498 - WARNING -  * Debugger is active!
+2025-06-10 11:09:17,505 - INFO -  * Debugger PIN: 100-108-352
+2025-06-10 11:15:54,141 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-10 11:15:54,142 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-10 11:15:54,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+2025-06-10 11:15:54,200 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 11:15:54,203 - INFO -  * Restarting with stat
+2025-06-10 11:15:54,789 - INFO - Système de sécurité anti-bruteforce initialisé avec succès
+2025-06-10 11:15:54,790 - INFO - Limite de tentatives: 5, durée de blocage: 300 secondes
+2025-06-10 11:15:54,818 - WARNING -  * Debugger is active!
+2025-06-10 11:15:54,824 - INFO -  * Debugger PIN: 100-108-352
+2025-06-10 11:15:59,015 - INFO - 192.168.1.207 - - [10/Jun/2025 11:15:59] "GET / HTTP/1.1" 200 -
+2025-06-10 11:15:59,369 - INFO - 192.168.1.207 - - [10/Jun/2025 11:15:59] "GET /static/logo_EDS.png HTTP/1.1" 200 -
+2025-06-10 11:15:59,407 - INFO - 192.168.1.207 - - [10/Jun/2025 11:15:59] "GET /static/styles.css HTTP/1.1" 200 -
+2025-06-10 11:16:00,674 - INFO - 192.168.1.207 - - [10/Jun/2025 11:16:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-10 11:16:16,423 - INFO - 192.168.1.207 - - [10/Jun/2025 11:16:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:17:03,379 - INFO - 192.168.1.207 - - [10/Jun/2025 11:17:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-10 11:17:03,394 - INFO - 192.168.1.207 - - [10/Jun/2025 11:17:03] "GET /admin_fabricant HTTP/1.1" 200 -
+2025-06-10 11:17:03,428 - INFO - 192.168.1.207 - - [10/Jun/2025 11:17:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:17:03,429 - INFO - 192.168.1.207 - - [10/Jun/2025 11:17:03] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-10 11:20:06,262 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-10 11:20:06,269 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:06] "GET / HTTP/1.1" 200 -
+2025-06-10 11:20:06,306 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:06] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-10 11:20:06,320 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:20:17,221 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-10 11:20:17,232 - INFO - Actions récupérées pour le client 38: 0
+2025-06-10 11:20:17,258 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:17] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-10 11:20:17,286 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:20:17,287 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:17] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-10 11:20:34,544 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:34] "GET /modifier/pin/2 HTTP/1.1" 200 -
+2025-06-10 11:20:34,564 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:34] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
+2025-06-10 11:20:34,565 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:20:39,645 - INFO - Actions récupérées pour le client 38: 0
+2025-06-10 11:20:39,647 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:39] "GET /admin_client/38 HTTP/1.1" 200 -
+2025-06-10 11:20:39,666 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-06-10 11:20:39,666 - INFO - 192.168.1.207 - - [10/Jun/2025 11:20:39] "[36mGET /static/logo_EDS.png HTTP/1.1[0m" 304 -
